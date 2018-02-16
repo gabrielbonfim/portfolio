@@ -28,16 +28,44 @@ hr {
     height: 5px;
 }
 
+article {
+    max-width: 33%;
+    text-align: center;
+}
+
 .title-name {
     text-transform: uppercase;
     font-weight: 100;
     margin: auto;
+    color: #2d3c49;
 }
 
 .title-fs-developer {
     text-transform: uppercase;
     font-weight: 400;
     margin: 10px 0px 0px 0px;
+    color: #2d3c49;
+}
+
+.featured-work {
+    color: #7d97ad;
+    font-weight: 300;
+}
+
+.featured-work-project-title {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #2d3c49;
+    margin: 10px 0px 0px 0px;
+}
+
+.featured-work-project-a {
+    font-size: 60%;
+    color: #2d3c49;
+}
+
+.featured-work-project-image {
+    max-width: 95%;
 }
 
 .font-roboto {
