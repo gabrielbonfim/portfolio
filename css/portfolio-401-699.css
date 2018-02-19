@@ -29,7 +29,7 @@ hr {
 }
 
 article {
-    max-width: 33%;
+    max-width: 33.3333%;
     text-align: center;
 }
 
@@ -65,7 +65,12 @@ article {
 }
 
 .featured-work-project-image {
-    max-width: 95%;
+    max-width: 96%;
+    margin-bottom: 10px;
+}
+
+.featured-work-middle-image {
+    margin-left: 2%;
 }
 
 .font-roboto {
