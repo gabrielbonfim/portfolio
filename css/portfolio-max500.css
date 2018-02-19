@@ -2,21 +2,14 @@
     box-sizing: border-box;
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-}
-
 body {
-    max-width: 800px;
-    min-width: 270px;
+    margin: auto;
+    min-width: 340px;
 }
 
 header {
-    width: 100%;
-    margin-top: 20px;
+    width: 98%;
+    margin: 20px 1% 0px 1%;
 }
 
 figure {
@@ -29,8 +22,9 @@ hr {
 }
 
 article {
-    max-width: 33.3333%;
+    max-width: 100%;
     text-align: center;
+    margin-left: 0% !important;
 }
 
 .title-name {
@@ -45,6 +39,10 @@ article {
     font-weight: 400;
     margin: 10px 0px 0px 0px;
     color: #2d3c49;
+}
+
+.main-image{
+    margin-top: 10px;
 }
 
 .featured-work {
@@ -65,8 +63,9 @@ article {
 }
 
 .featured-work-project-image {
-    max-width: 96%;
+    max-width: 30%;
     margin-bottom: 10px;
+    float: left;
 }
 
 .featured-work-middle-image {
@@ -98,5 +97,6 @@ article {
 }
 
 #logo {
-    width: 50px;
+    width: 65px;
+    margin-top: 5px;
 }

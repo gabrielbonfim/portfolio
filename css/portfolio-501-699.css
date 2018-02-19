@@ -2,21 +2,13 @@
     box-sizing: border-box;
 }
 
-body, html {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-}
-
 body {
-    max-width: 800px;
-    min-width: 270px;
+    margin: auto;
 }
 
 header {
-    width: 100%;
-    margin-top: 20px;
+    width: 98%;
+    margin: 20px 1% 0px 1%;
 }
 
 figure {
@@ -29,8 +21,17 @@ hr {
 }
 
 article {
-    max-width: 33.3333%;
+    max-width: 48.25%;
     text-align: center;
+    margin-bottom: 20px;
+}
+
+#article-1, #article-3 {
+    margin-left: 0px;
+}
+
+#article-2 {
+    margin-left: 3.5%;
 }
 
 .title-name {
@@ -45,6 +46,10 @@ article {
     font-weight: 400;
     margin: 10px 0px 0px 0px;
     color: #2d3c49;
+}
+
+.main-image{
+    margin-top: 10px;
 }
 
 .featured-work {
@@ -65,12 +70,8 @@ article {
 }
 
 .featured-work-project-image {
-    max-width: 96%;
+    max-width: 100%;
     margin-bottom: 10px;
-}
-
-.featured-work-middle-image {
-    margin-left: 2%;
 }
 
 .font-roboto {
@@ -98,5 +99,6 @@ article {
 }
 
 #logo {
-    width: 50px;
+    width: 65px;
+    margin-top: 5px;
 }
