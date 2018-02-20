@@ -1,3 +1,5 @@
+/* Common */
+
 * {
     box-sizing: border-box;
 }
@@ -5,11 +7,6 @@
 body {
     margin: auto;
     min-width: 340px;
-}
-
-header {
-    width: 98%;
-    margin: 20px 1% 0 1%;
 }
 
 figure {
@@ -21,10 +18,35 @@ hr {
     height: 5px;
 }
 
-article {
+.font-roboto {
+    font-family: Roboto, Tahoma, sans-serif;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.max-width-100 {
     max-width: 100%;
-    text-align: center;
-    margin-left: 0 !important;
+}
+
+/* Header */
+
+header {
+    width: 98%;
+    margin: 20px 1% 0 1%;
 }
 
 .title-name {
@@ -39,6 +61,19 @@ article {
     font-weight: 400;
     margin: 10px 0 0 0;
     color: #234;
+}
+
+#logo {
+    width: 55px;
+    margin-top: 5px;
+}
+
+/* Projects */
+
+article {
+    max-width: 100%;
+    text-align: center;
+    margin-left: 0 !important;
 }
 
 .main-image{
@@ -70,33 +105,4 @@ article {
 
 .featured-work-middle-image {
     margin-left: 2%;
-}
-
-.font-roboto {
-    font-family: Roboto, Tahoma, sans-serif;
-}
-
-.inline-block {
-    display: inline-block;
-}
-
-.float-right {
-    float: right;
-}
-
-.float-left {
-    float: left;
-}
-
-.no-margin {
-    margin: 0;
-}
-
-.max-width-100 {
-    max-width: 100%;
-}
-
-#logo {
-    width: 55px;
-    margin-top: 5px;
 }

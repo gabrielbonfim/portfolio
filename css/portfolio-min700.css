@@ -1,3 +1,5 @@
+/* Common */
+
 * {
     box-sizing: border-box;
 }
@@ -8,11 +10,6 @@ body {
     margin: auto;
 }
 
-header {
-    width: 98%;
-    margin: 20px 1% 0 1%;
-}
-
 figure {
     margin: auto;
 }
@@ -20,60 +17,6 @@ figure {
 hr {
     background-color: #79a;
     height: 5px;
-}
-
-article {
-    max-width: 31%;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-#article-1, #article-4 {
-    margin-left: 0;
-}
-
-#article-2, #article-3, #article-5, #article-6 {
-    margin-left: 3.5%;
-} 
-
-.title-name {
-    text-transform: uppercase;
-    font-weight: 100;
-    margin: auto;
-    color: #234;
-}
-
-.title-fs-developer {
-    text-transform: uppercase;
-    font-weight: 400;
-    margin: 10px 0 0 0;
-    color: #234;
-}
-
-.main-image{
-    margin-top: 10px;
-}
-
-.featured-work {
-    color: #79a;
-    font-weight: 300;
-}
-
-.featured-work-project-title {
-    text-transform: uppercase;
-    font-weight: 400;
-    color: #234;
-    margin: 10px 0 0 0;
-}
-
-.featured-work-project-a {
-    font-size: 50%;
-    color: #234;
-}
-
-.featured-work-project-image {
-    max-width: 100%;
-    margin-bottom: 10px;
 }
 
 .font-roboto {
@@ -100,7 +43,70 @@ article {
     max-width: 100%;
 }
 
+/* Header */
+
+header {
+    width: 98%;
+    margin: 20px 1% 0 1%;
+}
+
+.title-name {
+    text-transform: uppercase;
+    font-weight: 100;
+    margin: auto;
+    color: #234;
+}
+
+.title-fs-developer {
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 10px 0 0 0;
+    color: #234;
+}
+
 #logo {
     width: 55px;
     margin-top: 5px;
+}
+
+/* Projects */
+
+article {
+    max-width: 31%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#article-1, #article-4 {
+    margin-left: 0;
+}
+
+#article-2, #article-3, #article-5, #article-6 {
+    margin-left: 3.5%;
+} 
+
+.main-image{
+    margin-top: 10px;
+}
+
+.featured-work {
+    color: #79a;
+    font-weight: 300;
+}
+
+.featured-work-project-title {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #234;
+    margin: 10px 0 0 0;
+}
+
+.featured-work-project-a {
+    font-size: 50%;
+    color: #234;
+}
+
+.featured-work-project-image {
+    max-width: 100%;
+    margin-bottom: 10px;
 }
