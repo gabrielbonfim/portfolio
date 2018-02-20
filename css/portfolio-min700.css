@@ -10,7 +10,7 @@ body {
 
 header {
     width: 98%;
-    margin: 20px 1% 0px 1%;
+    margin: 20px 1% 0 1%;
 }
 
 figure {
@@ -18,7 +18,7 @@ figure {
 }
 
 hr {
-    background-color: #7d97ad;
+    background-color: #79a;
     height: 5px;
 }
 
@@ -29,7 +29,7 @@ article {
 }
 
 #article-1, #article-4 {
-    margin-left: 0px;
+    margin-left: 0;
 }
 
 #article-2, #article-3, #article-5, #article-6 {
@@ -40,14 +40,14 @@ article {
     text-transform: uppercase;
     font-weight: 100;
     margin: auto;
-    color: #2d3c49;
+    color: #234;
 }
 
 .title-fs-developer {
     text-transform: uppercase;
     font-weight: 400;
-    margin: 10px 0px 0px 0px;
-    color: #2d3c49;
+    margin: 10px 0 0 0;
+    color: #234;
 }
 
 .main-image{
@@ -55,20 +55,20 @@ article {
 }
 
 .featured-work {
-    color: #7d97ad;
+    color: #79a;
     font-weight: 300;
 }
 
 .featured-work-project-title {
     text-transform: uppercase;
     font-weight: 400;
-    color: #2d3c49;
-    margin: 10px 0px 0px 0px;
+    color: #234;
+    margin: 10px 0 0 0;
 }
 
 .featured-work-project-a {
     font-size: 50%;
-    color: #2d3c49;
+    color: #234;
 }
 
 .featured-work-project-image {
@@ -93,7 +93,7 @@ article {
 }
 
 .no-margin {
-    margin: 0px;
+    margin: 0;
 }
 
 .max-width-100 {
