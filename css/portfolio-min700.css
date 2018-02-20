@@ -28,11 +28,11 @@ article {
     margin-bottom: 20px;
 }
 
-#article-1 {
+#article-1, #article-4 {
     margin-left: 0px;
 }
 
-#article-2, #article-3 {
+#article-2, #article-3, #article-5, #article-6 {
     margin-left: 3.5%;
 } 
 
@@ -67,7 +67,7 @@ article {
 }
 
 .featured-work-project-a {
-    font-size: 60%;
+    font-size: 50%;
     color: #2d3c49;
 }
 
@@ -101,6 +101,6 @@ article {
 }
 
 #logo {
-    width: 65px;
+    width: 55px;
     margin-top: 5px;
 }
