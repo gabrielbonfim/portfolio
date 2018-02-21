@@ -95,3 +95,11 @@ article {
     max-width: 95%;
     margin-bottom: 10px;
 }
+
+/* Footer */
+
+.w3c-css {
+    border:0;
+    width:88px;
+    height:31px
+}
