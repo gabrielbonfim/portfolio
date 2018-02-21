@@ -3,9 +3,7 @@ For this project, I´m building a portfolio website. It was provided a design mo
 
 ## [Project Files](https://github.com/gabrielbonfim/portfolio)
 - `index.html` - Index file with the HTML code of the page
-- `css/portfolio-max500.css` - CSS rules for resolution below 500px
-- `css/portfolio-min700.css` - CSS rules for resolutions above 700px
-- `css/portfolio-501-699.css` - CSS rules for resolutions between 501px and 699px
+- `css/portfolio.css` - CSS rules
 - `img/udacity.svg` - Udacity logo
 - `img/main.jpg` - Main image
 - `img/p1.jpg` - Image of the project "Movies Trailers"
