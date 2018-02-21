@@ -8,80 +8,87 @@
     <!-- Font - Roboto -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
 
-    <!-- Project 2 - Porfolio - CSS 401px to 699px -->
-    <link rel="stylesheet" href="css/portfolio-501-699.css">
-
-    <!-- Project 2 - Porfolio - CSS max width 500px -->
-    <link rel="stylesheet" media="screen and (max-width: 500px)" href="css/portfolio-max500.css">
-
-    <!-- Project 2 - Porfolio - CSS min width 700px -->
-    <link rel="stylesheet" media="screen and (min-width: 700px)" href="css/portfolio-min700.css">
+    <!-- Project 2 - Porfolio - CSS -->
+    <link rel="stylesheet" href="css/portfolio.css">
 
     <title>Project 2 - Portfolio</title>
   </head>
   <body>
-    <header class="inline-block">
-      <figure class="inline-block float-left">
-        <img id="logo" src="img/udacity.svg" alt="Udacity Logo">
-      </figure>
-      <div class="float-right">
-        <h1 class="font-roboto title-name">Gabriel Almeida</h1>
-        <h4 class="font-roboto float-right title-fs-developer">Full Stack Web Developer</h4>
+    <header>
+      <div class="container">
+        <div class="box-header-logo">
+          <figure>
+            <img id="logo" src="img/udacity.svg" alt="Udacity Logo">
+          </figure>
+        </div>
+        <div class="box-header-name">
+          <h1 class="font-roboto title-name">Gabriel Almeida</h1>
+          <h4 class="font-roboto title-fs-developer">Full Stack Web Developer</h4>
+        </div>
       </div>
     </header>
     <hr>
     <main>
       <figure>
-        <img src="img/main.jpg"  class="max-width-100 main-image" alt="Main image">
+        <img src="img/main.jpg"  class="main-image" alt="Main image">
       </figure>
       <h2 class="font-roboto featured-work">Featured Work</h2>
-      <article id="article-1" class="float-left">
-        <figure>
+      <div class="container">
+        <article>
+          <figure>
             <img src="img/p1.jpg"  class="featured-work-project-image" alt="Movies Trailers">
-        </figure>
-        <h2 class="font-roboto featured-work-project-title">Movies Trailers</h2>
-        <a class="featured-work-project-a no-margin font-roboto" href="https://github.com/gabrielbonfim/movie-trailer-website" target="blank_">https://github.com/gabrielbonfim/movie-trailer-website</a>
-      </article>
-      <article id="article-2" class="float-left">
-        <figure>
+          </figure>
+          <h2 class="font-roboto featured-work-project-title">Movies Trailers</h2>
+          <a class="featured-work-project-a font-roboto" href="https://github.com/gabrielbonfim/movie-trailer-website" target="blank_">https://github.com/gabrielbonfim/movie-trailer-website</a>
+        </article>
+        <article>
+          <figure>
             <img src="img/p2.jpg"  class="featured-work-project-image" alt="Portfolio">
-        </figure>
-        <h2 class="font-roboto featured-work-project-title">Portfolio</h2>
-        <a class="featured-work-project-a no-margin font-roboto" href="https://github.com/gabrielbonfim/portfolio" target="blank_">https://github.com/gabrielbonfim/portfolio</a>
-      </article>
-      <article id="article-3" class="float-left">
-        <figure>
+          </figure>
+          <h2 class="font-roboto featured-work-project-title">Portfolio</h2>
+          <a class="featured-work-project-a font-roboto" href="https://github.com/gabrielbonfim/portfolio" target="blank_">https://github.com/gabrielbonfim/portfolio</a>
+        </article>
+        <article>
+          <figure>
             <img src="img/p3.jpg"  class="featured-work-project-image" alt="Log Analisys">
-        </figure>
-        <h2 class="font-roboto featured-work-project-title">Log Analisys</h2>
-        <a class="featured-work-project-a no-margin font-roboto" href="https://github.com/gabrielbonfim/log-analisys" target="blank_">https://github.com/gabrielbonfim/log-analisys</a>
-      </article>
-      <article id="article-4" class="float-left">
-        <figure>
-          <img src="img/p4.jpg"  class="featured-work-project-image" alt="Item Catalog">
-        </figure>
-        <h2 class="font-roboto featured-work-project-title">Item Catalog</h2>
-        <a class="featured-work-project-a no-margin font-roboto" href="https://github.com/gabrielbonfim/item-catalog" target="blank_">https://github.com/gabrielbonfim/item-catalog</a>
-      </article>
-      <article id="article-5" class="float-left">
-        <figure>
-          <img src="img/p5.jpg"  class="featured-work-project-image" alt="Neighborhood Map">
-        </figure>
-        <h2 class="font-roboto featured-work-project-title">Neighborhood</h2>
-        <a class="featured-work-project-a no-margin font-roboto" href="https://github.com/gabrielbonfim/neighborhood-map" target="blank_">https://github.com/gabrielbonfim/neighborhood-map</a>
-      </article>
-      <article id="article-6" class="float-left">
-        <figure>
-          <img src="img/p6.jpg"  class="featured-work-project-image" alt="Linux Server Configuration">
-        </figure>
-        <h2 class="font-roboto featured-work-project-title">Linux Server</h2>
-        <a class="featured-work-project-a no-margin font-roboto" href="https://github.com/gabrielbonfim/linux-server-configuration" target="blank_">https://github.com/gabrielbonfim/linux-server-configuration</a>
-      </article>
+          </figure>
+          <h2 class="font-roboto featured-work-project-title">Log Analisys</h2>
+          <a class="featured-work-project-a font-roboto" href="https://github.com/gabrielbonfim/log-analisys" target="blank_">https://github.com/gabrielbonfim/log-analisys</a>
+        </article>
+        <article>
+          <figure>
+            <img src="img/p4.jpg"  class="featured-work-project-image" alt="Item Catalog">
+          </figure>
+          <h2 class="font-roboto featured-work-project-title">Item Catalog</h2>
+          <a class="featured-work-project-a font-roboto" href="https://github.com/gabrielbonfim/item-catalog" target="blank_">https://github.com/gabrielbonfim/item-catalog</a>
+        </article>
+        <article>
+          <figure>
+            <img src="img/p5.jpg"  class="featured-work-project-image" alt="Neighborhood Map">
+          </figure>
+          <h2 class="font-roboto featured-work-project-title">Neighborhood</h2>
+          <a class="featured-work-project-a font-roboto" href="https://github.com/gabrielbonfim/neighborhood-map" target="blank_">https://github.com/gabrielbonfim/neighborhood-map</a>
+        </article>
+        <article>
+          <figure>
+            <img src="img/p6.jpg"  class="featured-work-project-image" alt="Linux Server Configuration">
+          </figure>
+          <h2 class="font-roboto featured-work-project-title">Linux Server</h2>
+          <a class="featured-work-project-a font-roboto" href="https://github.com/gabrielbonfim/linux-server-configuration" target="blank_">https://github.com/gabrielbonfim/linux-server-configuration</a>
+        </article>
+      </div>
       <!-- TODO: Update with future projects -->
     </main>
     <footer>
       <hr>
       <p class="font-roboto"><b>Gabriel Almeida</b> (Udacity Student)</p>
+      <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+          <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+            alt="Valid CSS!" />
+          </a>
+      </p>
     </footer>
   </body>
 </html>
